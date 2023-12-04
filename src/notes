@@ -1,0 +1,12 @@
+1. Always set a justify content and align items with display: flex; and  height: 100vh; for the main div component for example <div className="App"> the main div where all other divs are inside this div.So that the main div will be bring to the center and the other divs will be displayed horizontally with the diplay flex.
+2. So Always set justify content and align item to the main div so that the contener to be set in the center .
+3. Never set the same classNames for the mobile and desktop version . There will be come to a confusion
+4. In the mobile version we just set the width of the  containers based on our mobile version.
+-For example if the mobile version max width is 420px then we set the containers  width: 100%; max-width: 420px; 
+5. Whith that the elements will occupay the natural space. We dont need to use margin , padding or whatever to bring them to center.
+6.  Positionioning of the elements 
+-like  relative is useful in some conditions where we have to move a small elements so that  takes the element out of the normal document flow,and its position is then specified using the "top," "right," "bottom," or "left" properties.
+7. The "position: relative" CSS property is used to position an element relative to its normal position in the document flow. Unlike "position: absolute," which positions an element relative to its nearest positioned ancestor, "position: relative" positions an element relative to its normal position.
+
+
+8. Sometimes is better for us to use the position relative then absolute. We use relative when we dont want that element tpo be taken outside the document flow and still to affect       the document positioningof the other elements.
